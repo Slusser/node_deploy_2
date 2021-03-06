@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const jst = require("./functions");
 const server = express();
-const port = process.env.PORT || 3000 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git;
+const port = process.env.PORT || 3000;
 
 server.set("view engine","hbs")
 server.use("/assets",express.static(path.join(__dirname,"./assets")))
